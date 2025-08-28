@@ -1,12 +1,11 @@
 
 #include <stdio.h>
-
 int main()
 {
-    int x = 6, result;
-
-    result = (++x * 3) - 10;
-    printf("%d\n", result);
-
+    int a, result = 0;
+    printf("enter a number:");
+    scanf("%d", &a);
+    result = (++a * 3) - 10;
+    printf("The result is: %d\n", result);
     return 0;
 }
