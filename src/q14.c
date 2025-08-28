@@ -1,1 +1,16 @@
-// Create an expression that swaps the values of two variables x and y without using a temporary variable.
+
+
+#include <stdio.h>
+
+int main()
+{
+    int a = 5, b = 10;
+
+    a = a + b;
+    b = a - b;
+    a = a - b;
+
+    printf("After swapping: a = %d and b = %d\n", a, b);
+
+    return 0;
+}

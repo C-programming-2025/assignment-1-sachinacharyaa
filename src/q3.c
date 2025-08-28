@@ -1,8 +1,15 @@
-// Write a C program to prompt the user for their name and display a personalized greeting message.
+
 
 #include <stdio.h>
 
-int main() {
-    //Enter your code here
+int main()
+{
+
+    char user[50];
+
+    printf("Enter your name: ");
+    scanf("%s", user);
+    printf("Hi %s, Namaskar!", user);
+
     return 0;
 }

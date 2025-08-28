@@ -1,1 +1,19 @@
-// Write a C program to calculate the area of a rectangle. Prompt the user to enter the length and width, and display the result.
+
+#include <stdio.h>
+
+int main()
+{
+
+    int num1, num2, rectangle;
+
+    printf("Enter a length: ");
+    scanf("%d", &num1);
+
+    printf("Enter a width: ");
+    scanf("%d", &num2);
+
+    rectangle = (num1 * num2);
+    printf("The area of rectangle is %d", rectangle);
+
+    return 0;
+}
