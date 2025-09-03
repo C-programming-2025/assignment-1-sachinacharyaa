@@ -1,15 +1,10 @@
-
 #include <stdio.h>
-
 int main()
 {
-
-    int num, result;
-
-    printf("Enter the value of x: ");
-    scanf(" %d", &num);
-
-    result = ((num % 3 == 0) && (num % 5 == 0));
-    printf("%d", result);
+    int a, result;
+    printf("enter a number:");
+    scanf("%d", &a);
+    result = (a % 5 == 0) || (a % 3 == 0);
+    printf("the condition is %d", result);
     return 0;
 }
